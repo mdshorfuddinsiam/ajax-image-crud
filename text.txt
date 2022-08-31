@@ -1,0 +1,18 @@
+php artisan make:model Employee -mc
+
+
+var err = '';
+$.each(res.errors, function(key, err_value){
+	err = err + '<li>';
+	err = err + err_value;
+	err = err + '</li>';
+});
+$('#addErrorList').html(err);
+$('#addErrorList').removeClass('d-none');
+
+
+<button type="button" value="'+value.id+'" class="edit_btn btn btn-info mr-1" data-toggle="modal" data-target="#editEmployeeModal">Edit</button>
+
+if(\File::exists(self::$employee->image)){
+	\File::delete(self::$employee->image);
+}
